@@ -1,0 +1,534 @@
+[class*= "col-"]{
+    float: left;
+  }
+  
+  [class*="col-"]{
+    width: 100%;
+  }
+  
+  .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-section{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: orangered;
+}
+.header-section a{
+    text-decoration: none;
+    padding: 7px;
+    font-weight: bold;
+    color: white;
+}
+.foodie{
+    padding-left: 50px;
+}
+.nav-bar li{
+    display: inline;
+}
+.nav-bar{
+    padding-left: 550px;
+}
+.nav-bar a{
+    font-size: 20px;
+}
+.nav-bar a:hover{
+    color: black;
+}
+.btn{
+    padding: 12px 30px;
+    background-color: rgb(255, 187, 0);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+.btn:hover{
+    background-color: black;
+}
+.hero-suiper{
+    padding: 20px 0px;
+    font-size: 40px;
+    color: orange;
+    font-family: "Caveat", cursive;
+}
+.subpper-section{
+    font-size: 70px;
+    padding: 20px 0px;
+    font-family: "Rubik", sans-serif;
+}
+.bt-btn{
+    padding: 15px 30px;
+    background-color: rgba(238, 157, 7, 0.938);
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.bt-btn:hover{
+    background-color: white;
+    color: black;
+}
+.hero-suipers{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading-img-section img{
+   height: 550px;
+   width: 590px;
+   margin-top: 150px;
+}
+.heading-section{
+    margin-top: 150px;
+    margin-left: 80px;
+}
+main::after{
+    content: "";
+    display: table;
+    clear: both;
+ }
+ footer{
+    margin-left: 90px;
+    display: flex;  
+ }
+main{
+    box-sizing: border-box;
+    color: white;
+}
+.icon{
+    font-size: 30px;
+    color: orange;
+}
+.card{
+    background-color: white;
+    text-align: center;
+    padding: 40px ;
+    border:1px solid rgba(95, 88, 88, 0.082);
+    width: 280px;
+    height: 550px;
+    margin-left: 10px;
+    margin-top: 140px;
+    margin-bottom: 90px;
+}
+.card h1, h3, p{
+    margin-bottom: 15px;
+}
+.card p{
+    font-size: 20px;
+}
+.card h3{
+    font-size: 25px;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+}
+.card-section{
+    background-color: rgb(248, 245, 241);
+}
+.caferio-section{
+    margin-top: 150px;
+}
+.caferio-image-section img{
+    margin-left: 90px;
+}
+.caferio-suggest-section span{
+    color: orange;
+}
+.caferio-suggest-section h1{
+   font-size: 50px;
+   font-weight: bolder;
+   margin-bottom: 10px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.caferio-suggest-section{
+    margin-left: 130px;
+}
+.caferio-suggest-section p{
+    font-size: 19px;
+    font-weight: 50;
+}
+.caferio-suggest-section ul{
+    list-style-type: circle;
+}
+.caferio-suggest-section  li{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 15px;
+    padding: 5px 0px;
+}
+.order-btn{
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 17px;
+    background-color: orange;
+    color: white;
+    font-size: bold;
+    border: none;
+}
+.caferio-section::after{
+    content: "";
+    display: table;
+    clear: both;
+ }
+.delicious-food-section{
+    text-align: center;
+    background-color: rgb(248, 245, 241);
+    margin-top: 120px;
+}
+.delicious-food-section h4{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+.delicious-food-section h1{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 25px;
+}
+.delicious-food-section p{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.delicious-food-section button{
+    background-color: white;
+    font-size: 17px;
+    padding: 9px 20px;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+.delicious-food-section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+strike{
+  color: rgba(24, 22, 22, 0.534);
+  font-weight: bold;
+}
+.second-card-section{
+    box-sizing: border-box;
+}
+.second-crad-position{
+    margin-left: 80px;
+}
+.second-card{
+    background-color: white;
+    padding:40px 20px;
+    border:1px solid rgba(95, 88, 88, 0.082);
+    width: 360px;
+    height: 520px;
+    margin-bottom: 90px;
+    margin-left: 30px;
+}
+.second-card span{
+    color: orange;
+}
+.second-card p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.second-card b{
+    color: red;
+}
+.second-card button{
+    background-color: red;
+    padding: 5px 12px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.order-btn:hover{
+    background-color: black;
+}
+.order-btn button{
+    font-weight: bolder;
+}
+.second-card:hover{
+    border: 2px solid black;
+}
+.food-offer-section{
+    background-color: beige;
+}
+.second-card-section::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.burgar-details{
+    margin-top: 200px;
+    margin-left: 90px;
+    box-sizing: border-box;
+}
+.burgar-details h1{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+.burgar-details p{
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.863);
+}
+.image-burgar-section img{
+    width: 800px;
+    margin-top: 50px;  
+}
+.order-section{
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+.order-details{
+    margin-top: 200px;
+}
+.order-details h1{
+     font-size: 45px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.order-details p{
+    font-size: 17px;
+    margin-top: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(17, 17, 17, 0.507);  
+}
+.order-image-section{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.order-image-section img{
+    margin-top: 80px;
+}
+.order-section::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.reviews-section{
+    background-color: rgb(248, 245, 241);
+    text-align: center;
+}
+.reviews-section h3{
+    padding: 130px 0px 0px 0px;
+    color: red;
+}
+.reviews-section h1{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.reviews-section p{
+    font-size: 19px;
+    color: rgba(20, 18, 18, 0.671);
+    margin-top: 25px;
+    padding-bottom: 50px;
+}
+.reviews-card{
+    display: flex;
+    gap: 15px;
+    
+}
+.reviews-imgage img{
+    border-radius: 50%;
+}
+.reviews-section::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.star-section{
+    color: orange;
+}
+.reviews-card-section{
+    height: 280px;
+    width: 380px;
+    background-color: white;
+    margin-left: 10px;
+    box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.884);
+    margin-bottom: 120px;
+}
+.reviews-card{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.reviews-details{
+    margin-left: 50px;
+    padding-right: 30px;
+}
+.reviwes-card-style{
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 80px;
+}
+.reviews-details p{
+    padding-top: 15px;
+}
+.reviwes-card-style{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.discount-food-section{
+    height: 400px;
+    width: 100%;
+    margin-top: 120px;
+}
+.discount-ludus{
+    color: white;
+    padding: 90px 0px;
+    background-repeat: no-repeat;
+    margin-left: 90px;
+    margin-bottom: 100px;
+}
+.discount-ludus h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+}
+.discount-ludus p{
+    font-size: 19px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.discount-pizza{
+    position: relative;
+    margin-right: 80px;
+}
+.discount-details{
+   position: absolute;
+   top: 20px;
+   color: white;
+   padding-left: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+.discount-pizza img{
+    width: 290px;
+    height: 195px;
+}
+.discount-tasty-pazza{
+  position: relative;
+}
+.discount-detail{
+    position: absolute;
+    top: 20px;
+    color: white;
+    padding-left: 350px;
+    font-family: Arial, Helvetica, sans-serif; 
+ }
+ .discount-tasty-pazza img{
+    width: 596px;
+    box-sizing: border-box;
+ }
+.discount-tasty-pazza img:hover{
+    transition:var(--transition-2);
+    transform: scale(1);
+}
+.discount-food-section::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.all-about-food-section{
+    background-color: rgb(248, 245, 241);
+    margin-top: 170px;
+    padding-top: 150px;
+    padding-left: 80px;
+}
+.all-about-details{
+    text-align: center;
+}
+.all-about-details b{
+    color: red;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.all-about-details h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0px;
+}
+.all-about-details p{
+    color: rgba(53, 47, 47, 0.596);
+    font-weight: 500;
+    font-size: 19px;
+    padding-bottom: 50px;
+}
+.food-card{
+    position: relative;
+    border: 2px solid rgba(92, 88, 88, 0.103);
+}
+.food-card{
+    background-color: white;
+    margin-left: 20px;
+    width:370px;
+}
+.food-card-pizza img{
+    width: 370px;
+    height: 240px;
+}
+.btn-pizza{
+    position: absolute;
+    top: 5%;
+    padding-left: 280px;
+}
+.btn-pizza button{
+    background-color: hsl(31, 84%, 50%);
+    padding: 7px 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+.card-content{
+    padding: 25px;
+}
+.card-content p{
+    color: rgba(92, 85, 85, 0.514);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600px;
+    padding-top: 20px;
+    line-height: 1.4;
+}
+.card-content b{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.card-content b:hover{
+    transform: scale(1.2);
+    color: orange;
+}
+.all-about-food-section{
+    padding-bottom: 100px;
+}
+.all-about-food-section::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
